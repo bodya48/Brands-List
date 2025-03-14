@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "FBC01DC1-BE39-44DF-A118-7711D61025A7",
+      "name" : "Test Scheme Action",
+      "options" : {
+        "commandLineArgumentEntries" : [
+          {
+            "argument" : "unitTestsMode"
+          }
+        ]
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "commandLineArgumentEntries" : [
+
+    ],
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TestCompany.xcodeproj",
+      "identifier" : "CC6B4F0A2CD12A2C00331616",
+      "name" : "TestCompany"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TestCompany.xcodeproj",
+        "identifier" : "CCBEBC5D2CD6C162005D4DF2",
+        "name" : "TestCompanyTests"
+      }
+    }
+  ],
+  "version" : 1
+}
